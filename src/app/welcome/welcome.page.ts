@@ -14,6 +14,10 @@ export class WelcomePage implements OnInit {
 
   constructor(private router: Router) { }
 
+  goToHome() {
+    this.router.navigate(['explore']);
+  }
+
   ngOnInit() {
   }
 

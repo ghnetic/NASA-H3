@@ -107,7 +107,7 @@ export class ProfilePage implements OnInit {
     return await modal.present();
   }
 
-  goToSettings() {
-    this.router.navigate(['settings']);
+  goToHome() {
+    this.router.navigate(['explore']);
   }
 }

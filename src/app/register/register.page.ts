@@ -35,14 +35,12 @@ export class RegisterPage implements OnInit {
   }
 
   signUp() {
-    console.log(this.registerForm);
+    console.log(this.registerForm.value);
     if (this.registerForm.valid) {
-      this.presentLoading();
       this.apiService.registerUser(this.registerForm.value).subscribe(response=>{
         console.log('Si se pudo');
       })
       setTimeout(() => {
-        this.loading.dismiss();
         this.router.navigate(['profile']);
       }, 2000);
     } else {
@@ -53,14 +51,5 @@ export class RegisterPage implements OnInit {
   goBack() {
     this.router.navigate(['/welcome']);
   }
-
-  async presentLoading() {
-    this.loading = await this.loadingController.create({
-      message:
-        '<span class="loader"><span class="loader-inner"></span></span> <p>Loading</p>',
-      duration: 2000,
-      spinner: null,
-    });
-    await this.loading.present();
-  }
+  
 }
