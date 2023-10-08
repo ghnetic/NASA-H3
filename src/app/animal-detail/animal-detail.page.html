@@ -1,0 +1,92 @@
+<ion-content [fullscreen]="true">
+  <ion-grid
+    class="ion-no-padding ion-no-margin background-opts"
+    [ngStyle]="data?.background"
+  >
+    <ion-row>
+      <ion-col class="header-container">
+        <ion-header class="ion-no-border">
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-back-button defaultHref="explore" text=""></ion-back-button>
+            </ion-buttons>
+            <ion-buttons slot="end">
+              <ion-button class="menu-btn" slot="end">
+                <ion-icon slot="icon-only" name="ellipsis-vertical"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-padding-horizontal borders">
+    <ion-row class="">
+      <ion-col>
+        <ion-item lines="none" class="ion-no-padding">
+          <ion-label>
+            <h2 class="event-title">{{ data.common_name }}</h2>
+          </ion-label>
+          <ion-button
+            class="circle-btn"
+            slot="end"
+            fill="clear"
+            size="small"
+            shape="round"
+            color="primary"
+          >
+            <ion-icon slot="icon-only" name="share-social"></ion-icon>
+          </ion-button>
+        </ion-item>
+
+        <ion-list>
+          <ion-item lines="none" class="info-item">
+            <ion-avatar slot="start" class="ion-no-margin">
+              <ion-icon name="telescope"></ion-icon>
+            </ion-avatar>
+            <ion-label>
+              <ul>
+                <li>Scientific Name:</li>
+                <li>{{ data.event.scientific_name }}</li>
+              </ul>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none" class="info-item">
+            <ion-avatar slot="start" class="ion-no-margin">
+              <ion-icon color="primary" name="location"></ion-icon>
+            </ion-avatar>
+            <ion-label>
+              <ul>
+                <li>Habitat</li>
+                <li>{{ data.event.habitat}}</li>
+              </ul>
+            </ion-label>
+          </ion-item>
+
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p class="event-description"><strong>General Description: </strong> {{ data?.event.description }}</p>
+        <p *ngIf="data.event.risk" class="event-description"><strong>How to save it?: </strong> {{ data?.event.risk_description }}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-padding-horizontal ion-no-border">
+  <ion-toolbar class="ion-text-center">
+    <div class="btns-container">
+      <ion-button
+        class="action-button gradient-button"
+        fill="solid"
+
+      >
+        <span (click)="map()">Where to find it?</span>
+      </ion-button>
+      <ion-button class="action-button" fill="outline" mode="md" (click)="addPhotoToGallery()">
+        <span><ion-icon color="primary" style="width: 20px; height: 20px;" name="camera"></ion-icon></span>
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-footer>

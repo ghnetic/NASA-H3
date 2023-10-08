@@ -1,0 +1,51 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/explore" text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title style="text-transform: capitalize;">{{name}}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar
+          animated
+          placeholder="Find the {{name}} you are looking"
+        ></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding-horizontal">
+  <ion-grid>
+
+    <ion-row>
+      <ion-col
+        size-sm="12"
+        size-md="6"
+        size-lg="4"
+        size-lg="4"
+        *ngFor="let item of category"
+      >
+
+        <ion-item lines="none" class="">
+          <ion-thumbnail slot="start">
+              <img [src]="item.url_image" height="15px" width="15px">
+          </ion-thumbnail>
+          <ion-label>
+            <p class="caption">{{item.habitat}}</p>
+            <p class="title">{{ item.common_name }}</p>
+            <p>{{ item.description }}</p>
+            <ion-button class="follow-btn" (click)="animalDetail(item)">Read more...</ion-button>
+          </ion-label>
+
+
+
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

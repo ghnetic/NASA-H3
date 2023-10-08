@@ -1,0 +1,34 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/explore" text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>N E W S</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding-horizontal">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-padding-bottom">
+        <ion-searchbar
+          class="ion-no-padding"
+          animated
+          placeholder="Search your news"
+        ></ion-searchbar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-no-padding">
+        <ion-list>
+          <app-event-card *ngFor="let item of events"
+          [image]="item.images"
+          [name]="item.title"
+          [date]="item.created_at"
+          (click)="eventDetail(item)"
+          ></app-event-card>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

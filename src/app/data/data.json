@@ -1,0 +1,463 @@
+{
+  "histories": [
+    {
+      "userPicture": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "userName": "John",
+      "date": "2021-05-03T03:00:00.000Z",
+      "currentItem": 0,
+      "live": false,
+      "active": false,
+      "seen": false,
+      "items": [
+        {
+          "duration": 5,
+          "id": "64",
+          "media": "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": null
+        },
+        {
+          "duration": 5,
+          "id": "74",
+          "media": "https://images.unsplash.com/photo-1519602985774-5ca448b50061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": null
+        },
+        {
+          "duration": 5,
+          "id": "84",
+          "media": "https://images.unsplash.com/photo-1512531123205-560f5974e686?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": null
+        }
+      ]
+    },
+    {
+      "userPicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "userId": 1,
+      "userName": "Christine",
+      "date": "2021-05-02T03:00:00.000Z",
+      "currentItem": 0,
+      "live": false,
+      "active": false,
+      "seen": false,
+      "items": [
+        {
+          "duration": 5,
+          "id": "3",
+          "media": "https://images.unsplash.com/photo-1512850183-6d7990f42385?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": 5
+        }
+      ]
+    },
+    {
+      "userPicture": "https://images.unsplash.com/photo-1545996124-0501ebae84d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=124&q=80",
+      "userId": 1,
+      "userName": "Johnson",
+      "date": "2021-05-01T03:00:00.000Z",
+      "currentItem": 0,
+      "live": true,
+      "active": true,
+      "seen": false,
+      "items": [
+        {
+          "duration": 5,
+          "id": "3",
+          "media": "https://images.unsplash.com/photo-1558204145-e5ef36132dae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": 5
+        }
+      ]
+    },
+    {
+      "userPicture": "https://images.unsplash.com/photo-1548142813-c348350df52b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=124&q=80",
+      "userId": 1,
+      "userName": "Sofia",
+      "date": "2021-04-10T03:00:00.000Z",
+      "currentItem": 0,
+      "live": true,
+      "active": true,
+      "seen": false,
+      "items": [
+        {
+          "duration": 5,
+          "id": "3",
+          "media": "https://images.unsplash.com/photo-1594058573823-d8edf1ad3380?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=1000&q=80",
+          "seen": false,
+          "type": 0,
+          "views": 5
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "image": "https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+      "title": "Interview shoe designer John Fluevog on new book",
+      "text": "Aliso Canyon leak prompts feds to recommend dozens of safety changes",
+      "likes": 120,
+      "saved": 405,
+      "date": "2020-07-10T03:00:00.000Z",
+      "category": "Sports"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+      "title": "Interview shoe designer John Fluevog on new book",
+      "text": "Aliso Canyon leak prompts feds to recommend dozens of safety changes",
+      "likes": 320,
+      "saved": 4125,
+      "date": "2020-07-09T03:00:00.000Z",
+      "category": "Breaking News"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1519575706483-221027bfbb31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+      "title": "Refrigerated treats can make for a cool event",
+      "text": "Aliso Canyon leak prompts feds to recommend dozens of safety changes",
+      "likes": 290,
+      "saved": 945,
+      "date": "2020-07-08T03:00:00.000Z",
+      "category": "Art and Fashion"
+    }
+  ],
+  "feeds": [
+    {
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "name": "Boat Excursion",
+      "date": "2021-04-02T03:00:00.000Z",
+      "text": "Learn about the fish you see!",
+      "images": [
+        "assets/posters/boat.jpg"
+      ],
+      "likes": 2310,
+      "comments": 450
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "name": "Snorkeling",
+      "date": "2021-04-01T03:00:00.000Z",
+      "text": "Capture and share",
+      "images": [
+        "assets/posters/snorkeling.webp"
+      ],
+      "likes": 2310,
+      "comments": 450
+    }
+  ],
+  "follow": [
+
+    {
+      "name": "Misquito",
+      "location": "Michigan Ave",
+      "image": "assets/posters/misquito.png"
+    },
+    {
+      "name": "Ruta Lenca",
+      "location": "Silent Hill",
+      "image": "assets/posters/lenca.png"
+    },
+    {
+      "name": "Pech",
+      "location": "High Garden",
+      "image": "assets/posters/pech.png"
+    }
+  ],
+  "ads": [
+
+    {
+      "image": "assets/posters/anuncio1.png"
+    },
+    {
+      "image": "assets/posters/anuncio2.png"
+    }
+  ],
+  "news": [
+
+    {
+      "image": "assets/posters/oceanDays.png"
+    },
+    {
+      "image": "assets/posters/news2.png"
+    },
+    {
+      "image": "assets/posters/news3.png"
+    }
+  ],
+  "events": [
+    {
+      "name": "Halloween Party",
+      "image": "https://images.unsplash.com/photo-1477516561410-f0b5dd8319e4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=350&q=80",
+      "date": "Oct 25",
+      "from": "11:00 PM",
+      "to": "2:00 AM",
+      "location": "4th Avenue, High Hills",
+      "description": "An event description is copy that aims to tell your potential attendees what will be happening at the event, who will be speaking, and what they will get out of attending. Good event descriptions can drive attendance to events and also lead to more media coverage",
+      "attend": {
+        "avatars": [
+          "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1556637641-0ac7101023f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80"
+        ],
+        "total": 126
+      }
+    },
+    {
+      "name": "ABGT House Party",
+      "image": "https://images.unsplash.com/photo-1553190842-24c3f93ba116?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=80",
+      "date": "Dec 10",
+      "from": "09:00 PM",
+      "to": "04:00 AM",
+      "location": "Evro Boulevar, St,. Louis",
+      "description": "An event description is copy that aims to tell your potential attendees what will be happening at the event, who will be speaking, and what they will get out of attending. Good event descriptions can drive attendance to events and also lead to more media coverage",
+      "attend": {
+        "avatars": [
+          "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1556637641-0ac7101023f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80"
+        ],
+        "total": 321
+      }
+    },
+    {
+      "name": "Tomorrowland 21",
+      "image": "https://images.unsplash.com/photo-1577045629710-8e0bd30c1a03?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=350&q=80",
+      "date": "Jan 25",
+      "from": "11:00 PM",
+      "to": "2:00 AM",
+      "location": "Ratwater St. 111, New Orleans",
+      "description": "An event description is copy that aims to tell your potential attendees what will be happening at the event, who will be speaking, and what they will get out of attending. Good event descriptions can drive attendance to events and also lead to more media coverage",
+      "attend": {
+        "avatars": [
+          "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1556637641-0ac7101023f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80"
+        ],
+        "total": 126
+      }
+    },
+    {
+      "name": "Museum Night Gala",
+      "image": "https://images.unsplash.com/photo-1544213456-bc37cb97df74?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=80",
+      "date": "Feb 09",
+      "from": "11:00 PM",
+      "to": "12:30 AM",
+      "location": "Madison Ave. 1100, NYC",
+      "description": "An event description is copy that aims to tell your potential attendees what will be happening at the event, who will be speaking, and what they will get out of attending. Good event descriptions can drive attendance to events and also lead to more media coverage",
+      "attend": {
+        "avatars": [
+          "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1556637641-0ac7101023f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+          "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80"
+        ],
+        "total": 50
+      }
+    }
+  ],
+  "stories": [
+    {
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "image": "assets/posters/home.png",
+      "name": "Christine Jones",
+      "date": "2020-07-10T19:22:00.000Z"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Yoga Trends",
+      "members": 40,
+      "image": "https://images.unsplash.com/photo-1566501206188-5dd0cf160a0e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "name": "Fashion Styles",
+      "members": 752,
+      "image": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "name": "Lastest in NYC",
+      "members": 1098,
+      "image": "https://images.unsplash.com/photo-1470219556762-1771e7f9427d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "name": "Saturday Night",
+      "members": 250,
+      "image": "https://images.unsplash.com/photo-1598645121616-f47e54b76044?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user": "grannysmith",
+      "avatar": "https://images.unsplash.com/photo-1571816119607-57e48af1caa9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80",
+      "comment": "Awesome ❤️❤️❤️",
+      "likes": 5,
+      "time": "2020-07-02T03:00:00.000Z",
+      "replies": [
+        {
+          "id": 1,
+          "user": "joan_4real",
+          "avatar": "https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80",
+          "comment": "Amazings pics where are your right now?? Cheers, 😍",
+          "likes": 0,
+          "time": "2020-08-12T03:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "user": "randy2000",
+          "avatar": "https://images.unsplash.com/photo-1567186937675-a5131c8a89ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80",
+          "comment": " Miss you Christine, cheers. 🤩❤️‍🔥🙌",
+          "likes": 1,
+          "time": "2020-08-15T03:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": "4realshoppist",
+      "avatar": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=64&q=80",
+      "comment": "Real dope for wallpapers ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥",
+      "likes": 0,
+      "time": "2020-09-15T03:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "user": "john_williams",
+      "avatar": "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80",
+      "comment": "🤩❤️‍🔥🙌",
+      "likes": 10,
+      "time": "2021-02-26T03:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "user": "john_williams",
+      "avatar": "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80",
+      "comment": "Wayfarers portland affogato hoodie, wolf subway tile before they sold out next level master cleanse vape coloring book. Man braid poutine fixie, celiac hexagon bushwick wolf. 🤩❤️‍🔥🙌",
+      "likes": 10,
+      "time": "2021-02-26T03:00:00.000Z"
+    }
+  ],
+  "turtles": [
+    {
+      "id": 1,
+      "scientific_name": "Dermatemys mawii",
+      "common_name": "Hickatee",
+      "description": "The Hickatee, also known as the Central American River Turtle, is a large freshwater turtle native to Honduras. It has a dark brown or black shell with a rough texture, and its head is large and triangular in shape. This turtle is herbivorous, feeding on a variety of aquatic plants. It is considered to be in danger of extinction due to habitat loss and overhunting.",
+      "risk": true,
+      "risk_description": "The Hickatee is endangered due to the destruction of its habitat, primarily caused by deforestation and the construction of dams. Additionally, the species is hunted for its meat and eggs.",
+      "habitat": "Rivers and freshwater habitats",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tortuga_blanca.jpg",
+      "url_video": "https://youtu.be/L4s5j73wKgw?si=3kjQsBb34WKKjI82",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "scientific_name": "Chelonia mydas",
+      "common_name": "Green Sea Turtle",
+      "description": "The Green Sea Turtle is a large marine turtle that can be found in the coastal waters of Honduras. It has a streamlined body and flippers adapted for swimming in the ocean. Green Sea Turtles are herbivorous, feeding on seagrasses and algae. They are considered to be endangered, primarily due to habitat loss, pollution, and poaching for their meat, eggs, and shells.",
+      "risk": true,
+      "risk_description": "Green Sea Turtles are listed as an endangered species due to a variety of threats. These include the destruction of nesting beaches, pollution of marine habitats, accidental capture in fishing gear, and the illegal trade of their products. Conservation efforts are crucial for their survival.",
+      "habitat": "Coastal waters and coral reefs",
+      "url_image": "https://2.bp.blogspot.com/-fkj_VGH3WcY/V4N3pwow-CI/AAAAAAAALbU/TvcVixbTR0kWiTjN-MxY_whooNYnr7zlACLcB/w1200-h630-p-k-no-nu/chelonia-mydas-sea-turtle-wallpaper-8.jpg",
+      "url_video": "https://youtu.be/BYgxysA73ug?si=c5NbEIQNRyytkhr8",
+      "category_id": 1
+    },
+    {
+      "id": 8,
+      "scientific_name": "Trachemys scripta",
+      "common_name": "Red-eared Slider",
+      "description": "The Red-eared Slider is a species of turtle commonly found in freshwater habitats throughout Honduras. It has a distinctive red stripe behind its eye and a dark green or brown shell. Red-eared Sliders are omnivorous, feeding on a variety of plants and small animals. While they are not currently considered to be at risk, there are concerns about their potential impact as an invasive species in some regions.",
+      "risk": false,
+      "risk_description": "The Red-eared Slider is not currently classified as an endangered species. However, it has been introduced to various parts of the world outside of its native range, causing concerns about its impact on native ecosystems. Efforts are being made to control its spread and prevent negative ecological effects.",
+      "habitat": "Freshwater habitats",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/83819754/large.jpg",
+      "url_video": "https://youtu.be/S6QODzmh2Is?si=XysAGdbc845Tq4lB",
+      "category_id": 1
+    }
+  ],
+  "dolphins": [
+
+    {
+      "avatar": "https://2.bp.blogspot.com/-fkj_VGH3WcY/V4N3pwow-CI/AAAAAAAALbU/TvcVixbTR0kWiTjN-MxY_whooNYnr7zlACLcB/w1200-h630-p-k-no-nu/chelonia-mydas-sea-turtle-wallpaper-8.jpg",
+      "user": "Green Sea Turtle",
+      "active": true
+    },
+    {
+      "avatar": "https://inaturalist-open-data.s3.amazonaws.com/photos/83819754/large.jpg",
+      "user": "Red-eared Slider",
+      "active": true
+    }
+  ],
+  "messages": [
+    {
+      "avatar": "https://images.unsplash.com/photo-1556637641-0ac7101023f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "user": "McDonalds",
+      "active": true,
+      "message": "You got 20% voucher offer from your last cart",
+      "time": "12:30"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1545912452-8aea7e25a3d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "user": "Hannah Smith",
+      "active": true,
+      "message": "sent you an invitation",
+      "time": "14:30",
+      "messageCount": 2
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1508341591423-4347099e1f19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "user": "Roland McDonalds",
+      "active": false,
+      "message": "asked you to join in a group",
+      "time": "20:00"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "user": "Starbucks",
+      "active": false,
+      "message": "Save up to 50% OFF on your weekend purchases",
+      "time": "14:30"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "user": "Maria Gutierrez",
+      "active": true,
+      "message": "asked you to join in a group",
+      "time": "Yesterday",
+      "messageCount": 5
+    }
+  ],
+  "notifications": [
+    {
+      "avatar": "https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "username": "Lia Young",
+      "message": "commented on your picture",
+      "time": "2021-03-19T03:00:00.000Z"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "username": "Maria Jacobs",
+      "message": "post a new story",
+      "time": "2021-03-17T03:00:00.000Z"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "username": "Rodrigo Santoro",
+      "message": "started following you",
+      "time": "2021-03-12T03:00:00.000Z"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1604426633861-11b2faead63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=124&q=80",
+      "username": "Kim Acardia",
+      "message": "commented on a picture your posted",
+      "time": "2021-03-10T03:00:00.000Z"
+    }
+  ]
+}

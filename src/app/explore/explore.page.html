@@ -1,0 +1,181 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Explore</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="goToLogin()">
+        <ion-icon
+          slot="icon-only"
+          name="log-in-outline"
+          color="light"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding-horizontal">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-no-padding">
+        <ion-slides [options]="storiesConfig">
+          <ion-slide *ngFor="let item of stories">
+            <app-story-card
+              [image]="item.image"
+            >
+            </app-story-card>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+        <ion-item lines="none" class="section">
+          <ion-text color="light">
+            <h5 class="section-title">Learn about me...</h5>
+          </ion-text>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-slides [options]="usersConfig">
+        <ion-slide>
+          <ion-button class="story-button" fill="clear" shape="round" (click)="category('blowfish')">
+            <img src="/assets/category/blowfish.png" width="25px" height="25px" alt="blowfish" class="ion-icon" srcset="">
+          </ion-button>
+        </ion-slide>
+        <ion-slide>
+          <ion-button class="story-button" style="margin: 1rem;" fill="clear" (click)="category('dolphin')" shape="round">
+            <img src="/assets/category/dolphin.png" width="25px" height="25px" alt="blowfish" class="ion-icon" srcset="">
+          </ion-button>
+        </ion-slide>
+        <ion-slide>
+          <ion-button class="story-button" fill="clear" shape="round">
+            <img src="/assets/category/seahorse.png" width="25px" height="25px" alt="blowfish" (click)="category('seahorse')" class="ion-icon" srcset="">
+          </ion-button>
+        </ion-slide>
+        <ion-slide>
+          <ion-button class="story-button" style="margin: 1rem;" fill="clear" shape="round">
+            <img src="/assets/category/starfish.png" width="25px" height="25px" alt="blowfish" (click)="category('starfish')" class="ion-icon" srcset="">
+          </ion-button>
+        </ion-slide>
+        <ion-slide>
+          <ion-button class="story-button" fill="clear" shape="round">
+            <img src="/assets/category/turtle.png" width="25px" height="25px" alt="blowfish" (click)="category('turtle')" class="ion-icon" srcset="">
+          </ion-button>
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+        <ion-item lines="none" class="section">
+          <ion-text color="light">
+            <h5 class="section-title">Activities</h5>
+          </ion-text>
+          <a slot="end" [routerLink]="">See All</a>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col
+        size-sm="12"
+        size-md="6"
+        size-lg="4"
+        size-lg="4"
+        *ngFor="let item of feeds"
+      >
+        <app-feed-card
+          (click)="navigateToDetail()"
+          [avatar]="item.avatar"
+          [name]="item.name"
+          [date]="item.text"
+          [images]="item.images"
+          [likes]="item.likes"
+          [separator]="true"
+        >
+        </app-feed-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+        <ion-item lines="none" class="section">
+          <ion-text color="light">
+            <h5 class="section-title">Recomended Routes</h5>
+          </ion-text>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-no-padding">
+        <ion-slides [options]="followConfig">
+          <ion-slide *ngFor="let item of follow">
+            <app-follow-card
+              [image]="item.image"
+              [name]="item.name"
+              [location]="item.location"
+            >
+            </app-follow-card>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+        <ion-item lines="none" class="section">
+          <ion-text color="light">
+            <h5 class="section-title">It might interest you...</h5>
+          </ion-text>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col id="ion-no-padding">
+        <ion-slides [options]="followConfig">
+          <ion-slide *ngFor="let item of ads">
+            <div class="ion-card-ads">
+              <ion-card class="ion-no-margin">
+                <ion-card-content class="ion-no-padding">
+                  <img [src]="item.image" width="160px" height="60px">
+                </ion-card-content>
+              </ion-card>
+            </div>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding half-padding">
+        <ion-item lines="none" class="section">
+          <ion-text color="light">
+            <h5 class="section-title">Recent News</h5>
+          </ion-text>
+          <a slot="end" routerLink="/events">See All</a>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="ion-no-padding">
+        <ion-slides [options]="followConfig">
+          <ion-slide *ngFor="let item of news">
+            <app-follow-card
+              [image]="item.images"
+            >
+            </app-follow-card>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>
