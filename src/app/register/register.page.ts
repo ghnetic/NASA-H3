@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
+import { ApiService } from '../services/api.service';
 
 @Component({
   selector: 'app-register',
@@ -21,23 +22,28 @@ export class RegisterPage implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
-    public loadingController: LoadingController
+    public loadingController: LoadingController,
+    private apiService: ApiService
   ) {}
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
       email: [null, [Validators.required]],
-      phone: [null, [Validators.required, Validators.pattern('^[0-9]+$')]],
+      name: [null, [Validators.required]],
       password: [null, [Validators.required]],
     });
   }
 
   signUp() {
+    console.log(this.registerForm);
     if (this.registerForm.valid) {
       this.presentLoading();
+      this.apiService.registerUser(this.registerForm.value).subscribe(response=>{
+        console.log('Si se pudo');
+      })
       setTimeout(() => {
         this.loading.dismiss();
-        this.router.navigate(['tabs/explore']);
+        this.router.navigate(['profile']);
       }, 2000);
     } else {
       console.log('invalid');

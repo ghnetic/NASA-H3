@@ -22,4 +22,9 @@ export class ApiService {
     //let headers = new HttpHeaders({'Content-Type':'application/json', 'Authorization':this.token, 'api-key':this.token});
     return this.http.get(this.url+'/api/allNews');
   }
+
+  registerUser(data:any): Observable<any>{
+    return this.http.post(this.url+'/api/addUser',data);
+  }
+
 }
