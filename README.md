@@ -33,6 +33,11 @@ We position ourselves in the root of the project from the command line and execu
 npm i
 ```
 
+## Collection of the developed api
+
+Link de Postman [here](https://documenter.getpostman.com/view/12837303/2s9YJgUgMh#f874b22c-f58d-475a-8c4d-8c47ec8a22b2)
+<br/>
+
 ## Contributors
 
 Thanks to these wonderful people
