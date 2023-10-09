@@ -82,7 +82,7 @@
         fill="solid"
 
       >
-        <span (click)="map()">Where to find it?</span>
+        <span (click)="map(data.event.latitud, data.event.longitud)">Where to find it?</span>
       </ion-button>
       <ion-button class="action-button" fill="outline" mode="md" (click)="addPhotoToGallery()">
         <span><ion-icon color="primary" style="width: 20px; height: 20px;" name="camera"></ion-icon></span>

@@ -18,7 +18,7 @@ export class AnimalDetailPage implements OnInit {
         this.data = this.router.getCurrentNavigation()?.extras.state;
         //Info general
         console.log(this.data.event);
-        this.data.background = { backgroundImage: `url(${this.data.event.url_image})`}
+        this.data.event.url_image = { url_image: `url(${this.data.event.url_image})`}
       }
     });
 
@@ -27,7 +27,9 @@ export class AnimalDetailPage implements OnInit {
   ngOnInit() {
   }
 
-  map(){
+  map(lat:any, lon:any){
+    localStorage.setItem('latitude', lat);
+    localStorage.setItem('longitude', lon);
     this.router.navigate(['map']);
   }
 

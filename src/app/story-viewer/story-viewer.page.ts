@@ -15,11 +15,11 @@ export class StoryViewerPage implements OnInit {
 
   ip: string ='';
   url: string='';
-  lat: any;
-  lon: any;
+  lat= localStorage.getItem('latitude');
+  lon= localStorage.getItem('longitude');
 
   ngOnInit() {
-  this.getWeather();
+
   }
 
   goToHome() {
@@ -30,37 +30,5 @@ export class StoryViewerPage implements OnInit {
 
   }
 
-  getWeather(){
-    //Aqui obtenemos el ip
-          fetch('https://api.my-ip.io/ip.json')
-          .then(response=> response.json())
-          .then(async data => {
-            this.ip=data.ip.toString();
-            //console.log(this.ip);
-
-            this.url='https://weatherapi-com.p.rapidapi.com/ip.json?q='+this.ip;
-            const options = {
-              method: 'GET',
-              headers: {
-                'X-RapidAPI-Key': '3b54501c1cmsh9bf1440086b89cfp1fc3f9jsn1d3de34c91a2',
-                'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
-              }
-            };
-            try {
-              const response = await fetch(this.url, options);
-              const result = await response.text();
-
-              this.lat= JSON.stringify(result);
-              console.log(this.lat);
-
-              //console.log('hola');
-            } catch (error) {
-              console.log('adios');
-              console.error(error);
-            }
-        });
-
-
-    }
 
 }

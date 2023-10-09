@@ -17,6 +17,7 @@ export class ExplorePage implements OnInit {
   ads: any;
   news: any;
   events: any;
+  animal:any;
 
   storiesConfig = {
     initialSlide: 0,
@@ -73,7 +74,22 @@ export class ExplorePage implements OnInit {
   }
 
   category(category:string){
-    this.router.navigate(['animals', category]);
+    if(category=='1'){
+      localStorage.setItem('category', '1');
+    }else if(category=='2'){
+      localStorage.setItem('category', '2');
+    }else if(category=='3'){
+      localStorage.setItem('category', '3');
+    }else if(category=='4'){
+      localStorage.setItem('category', '4');
+    }
+
+    let navigationExtras: NavigationExtras = {
+      state: {
+        event: this.animal,
+      },
+    };
+    this.router.navigate(['animals'], navigationExtras);
   }
 
   eventDetail(item:any) {
