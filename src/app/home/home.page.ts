@@ -10,9 +10,9 @@ export class HomePage implements OnInit {
 
   data = [
     {
-      image: 'assets/images/LOGO.png',
+      image: 'assets/images/LOGOMOVE.gif',
       title: 'Honduras | H₂O | Heroes',
-      description: 'What´s Up With These Water?'
+      description: 'What´s Up With This Water?'
     }
   ];
 

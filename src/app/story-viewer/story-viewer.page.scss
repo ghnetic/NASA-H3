@@ -1,3 +1,5 @@
+
+
 .progress-bar {
   --padding-top: 0 !important;
   --padding-bottom: 0 !important;
@@ -187,4 +189,31 @@ ion-slides {
   right: 0px;
   top: 0px;
   width: 100vw;
+}
+
+.heading .name-header {
+  margin: 0;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading > .name-header {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 1px); /* calculate height of the screen minus the heading */
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

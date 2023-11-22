@@ -32,7 +32,7 @@ const routes: Routes = [
     loadChildren: () => import('./story-viewer/story-viewer.module').then( m => m.StoryViewerPageModule)
   },
   {
-    path: 'animals',
+    path: 'animals/:id',
     loadChildren: () => import('./contacts/contacts.module').then( m => m.ContactPageModule)
   },
   {

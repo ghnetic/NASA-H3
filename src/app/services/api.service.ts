@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -43,8 +44,14 @@ export class ApiService {
     return this.http.get(this.url+'/api/filterZoo/4');
   }
 
+  getCategory5(): Observable<any>{
+    //let headers = new HttpHeaders({'Content-Type':'application/json', 'Authorization':this.token, 'api-key':this.token});
+    return this.http.get(this.url+'/api/filterZoo/5');
+  }
+
   registerUser(data:any): Observable<any>{
     return this.http.post(this.url+'/api/addUser',data);
   }
 
+  
 }

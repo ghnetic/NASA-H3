@@ -8,8 +8,6 @@ import { UserPhoto } from '../interface/photo.interface';
   providedIn: 'root'
 })
 
-
-
 export class PhotoService {
   public photos: UserPhoto[] = [];
   private PHOTO_STORAGE: string = 'photos';
@@ -26,23 +24,19 @@ export class PhotoService {
       source: CameraSource.Camera, // automatically take a new photo with the camera
       quality: 100 // highest quality (0 to 100)
     });
-
     // Save the picture and add it to photo collection
     const savedImageFile: any = await this.savePicture(capturedPhoto);
     this.photos.unshift(savedImageFile);
-
     Preferences.set({
       key: this.PHOTO_STORAGE,
       value: JSON.stringify(this.photos),
     });
-
   }
 
   public async loadSaved() {
     // Retrieve cached photo array data
     const { value } = await Preferences.get({ key: this.PHOTO_STORAGE });
     this.photos = (value ? JSON.parse(value) : []) as UserPhoto[];
-
     // more to come...
     // Display the photo by reading into base64 format
     for (let photo of this.photos) {

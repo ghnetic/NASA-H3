@@ -18,6 +18,7 @@ export class ExplorePage implements OnInit {
   news: any;
   events: any;
   animal:any;
+  id:any;
 
   storiesConfig = {
     initialSlide: 0,
@@ -50,8 +51,8 @@ export class ExplorePage implements OnInit {
 
     this.apiService.getAllNews().subscribe((response) => {
       this.news=response;
-      console.log(this.news)
     });
+    this.id='0';
   }
 
   getNews(){
@@ -75,29 +76,20 @@ export class ExplorePage implements OnInit {
 
   category(category:string){
     if(category=='1'){
-      localStorage.setItem('category', '1');
+      this.id='1';
     }else if(category=='2'){
-      localStorage.setItem('category', '2');
+      this.id='2';
     }else if(category=='3'){
-      localStorage.setItem('category', '3');
+      this.id='3';
     }else if(category=='4'){
-      localStorage.setItem('category', '4');
+      this.id='4';
+    }else if(category=='5'){
+      this.id='5';
     }
 
-    let navigationExtras: NavigationExtras = {
-      state: {
-        event: this.animal,
-      },
-    };
-    this.router.navigate(['animals'], navigationExtras);
+
+    this.router.navigate(['/animals', this.id]);
   }
 
-  eventDetail(item:any) {
-    let navigationExtras: NavigationExtras = {
-      state: {
-        event: item,
-      },
-    };
-    this.router.navigate(['event-detail'], navigationExtras);
-  }
+
 }

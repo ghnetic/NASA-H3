@@ -1,35 +1,33 @@
-<ion-content [fullscreen]="true" slot="fixed">
+
+<ion-header class="ion-no-border" style="background-color: rgba(108, 108, 108, 0.836); margin-bottom: 1rem;">
+  <ion-toolbar>
+    <ion-title>Where do we find it?</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="goBack()">
+        <ion-icon
+          slot="icon-only"
+          name="arrow-back-outline"
+          color="light"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 
       <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15480.31574025628!2d-87.2120501!3d14.072516!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2shn!4v1696809230030!5m2!1ses!2shn" width="390" height="844" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
 
-      <div id="map" class="data-container">
-        <ion-toolbar class="black-gradient-top">
-
-          <ion-row class="ion-no-padding">
-            <ion-col class="ion-no-padding">
-              <ion-header class="ion-no-border">
-                <ion-toolbar>
-                  <ion-buttons slot="start">
-                    <ion-button (click)="goToHome()" class="back-btn">
-                      <ion-icon style="color: black;"
-                        slot="icon-only"
-                        name="arrow-back-outline"
-                      ></ion-icon>
-                    </ion-button>
-                  </ion-buttons>
-                </ion-toolbar>
-              </ion-header>
-            </ion-col>
-          </ion-row>
-        </ion-toolbar>
-        <div class="middle-container"></div>
-        <div class="comments-container black-gradient-bottom">
-          <div class="ion-padding comments">
-
-          </div>
-
+        <div class="map-wrap">
+          <div class="map" #map>
+            <!--<iframe width="500" height="1000" src="https://api.maptiler.com/maps/streets/?key=vbqZjmUSK8ISkQf88jrO#14.0/14.0818/-87.20681"></iframe>
+            -->
+            </div>
         </div>
+
+
+
+        <!-- Google iframe
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15480.31574025628!2d-87.2120501!3d14.072516!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2shn!4v1696809230030!5m2!1ses!2shn" width="390" height="844" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        -->
+
       </div>
-</ion-content>
+
