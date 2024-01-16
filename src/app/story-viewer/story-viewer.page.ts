@@ -45,9 +45,10 @@ private mapContainer!: ElementRef<HTMLElement>;
       fullscreenControl: "bottom-right",
 
     });
+   console.log(this.data.event)
 
     var popup = new Popup({ offset: 25 })
-    .setHTML("<h6 style='color: black;'>"+this.data.event.common_name+" ubication</h6>")
+    .setHTML("<h6 style='color: black;'>Name: "+this.data.event.common_name+"</h6><br><h6 style='color: black;'>Where to find it:"+this.data.event.habitat+"</h6>")
 
     var ubicationPopup = new Popup({ offset: 25 })
     .setHTML("<h6 style='color: black;'>Your actual ubication</h6>")
@@ -64,6 +65,7 @@ private mapContainer!: ElementRef<HTMLElement>;
 
       /* Para acercar el mapa
       await this.map.onLoadWithTerrainAsync();
+      
 
     this.map.flyTo({
         center: [this.animalJson['lng'],this.animalJson['lat']], // Animal ubication

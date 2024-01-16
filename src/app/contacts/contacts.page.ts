@@ -29,7 +29,6 @@ export class ContactPage implements OnInit {
 if(this.categor=='1'){
   this.apiService.getCategory1().subscribe(response=>{
     this.data=response;
-    //console.log(this.data);
   });
 }else if(this.categor=='2'){
   this.apiService.getCategory2().subscribe(response=>{

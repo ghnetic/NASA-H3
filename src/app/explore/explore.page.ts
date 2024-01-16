@@ -51,15 +51,18 @@ export class ExplorePage implements OnInit {
 
     this.apiService.getAllNews().subscribe((response) => {
       this.news=response;
+      console.log("Estoy en la pagina del inicio");
     });
     this.id='0';
   }
 
-  getNews(){
-    this.apiService.getAllNews().subscribe((response) => {
-      this.news=response;
-    });
-
+  eventDetail(item:any) {
+    let navigationExtras: NavigationExtras = {
+      state: {
+        event: item
+      }
+    };
+    this.router.navigate(['event-detail'], navigationExtras);
   }
 
   viewStory(index:any) {

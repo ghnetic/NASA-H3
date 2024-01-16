@@ -170,6 +170,7 @@
           <ion-slide *ngFor="let item of news">
             <app-follow-card
               [image]="item.images"
+              (click)="eventDetail(item)"
             >
             </app-follow-card>
           </ion-slide>
